@@ -23,15 +23,6 @@ const RoomAllocation = (props) => {
 
   return (
     <div className={styles.root}>
-      <CustomInputNumber
-        min={1}
-        max={100}
-        name="test"
-        value={0}
-        onChange={e => {
-          console.log(e.target.value);
-        }}
-      />
       <div style={{ fontWeight: 'bold' }}>
         住客人數：{guest} 人／{room} 房
       </div>
